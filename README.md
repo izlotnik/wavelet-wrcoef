@@ -2,7 +2,7 @@
 Reconstruct the coefficients of a one-dimensional signal from a wavelet multiple level decomposition and implement Matlab's function wrcoef in Python
 
 # Purpose
-In Python we have two great libraries to deal with different types of wavelets: [PyWavelets](https://github.com/PyWavelets/pywt) and [PyYAWT](https://github.com/holgern/pyyawt). The latter one is not under active development now but could be used for inspirational purposes. Unfortunately, the function to reconstruct the signal from multilevel decomposition is not implemented in both packages, see for example the related source code of the [PyYAWT library](http://pyyawt.readthedocs.io/_modules/pyyawt/dwt1d.html#wrcoef). Hopefully the related function is implemented in the Matlab Wavelet Toolbox, see [`wrcoef`](https://www.mathworks.com/help/wavelet/ref/wrcoef.html). So, we will reengineer the code of that function for one special family of wavelets, known as [Symlet Wavelets or Symlets](https://www.mathworks.com/help/wavelet/gs/introduction-to-the-wavelet-families.html#f3-1008627).
+In Python we have two great libraries to deal with different types of wavelets: [PyWavelets](https://github.com/PyWavelets/pywt) and [PyYAWT](https://github.com/holgern/pyyawt). The latter one is not under active development now but could be used for inspirational purposes. Unfortunately, the function to reconstruct the signal from multilevel decomposition is not implemented in both packages, see, for example, the related source code of the [PyYAWT library](http://pyyawt.readthedocs.io/_modules/pyyawt/dwt1d.html#wrcoef). Hopefully, the related function is implemented in the Matlab Wavelet Toolbox, see [`wrcoef`](https://www.mathworks.com/help/wavelet/ref/wrcoef.html). So, we will reengineer the code of that function for one special family of wavelets, known as [Symlet Wavelets or Symlets](https://www.mathworks.com/help/wavelet/gs/introduction-to-the-wavelet-families.html#f3-1008627).
 
 # Sample code
 ```Python
@@ -92,4 +92,4 @@ outputs
 The code is free for academic/research purpose. Use it at your own risk and we are not responsible for any loss resulting from this code. Feel free to submit pull request for bug fixes.
 
 # Author
-[Ilya Zlotnik](https://scholar.google.ru/citations?hl=ru&user=gWphyBwAAAAJ), 2017
+[Ilya Zlotnik](https://scholar.google.ru/citations?hl=ru&user=gWphyBwAAAAJ) 2017
