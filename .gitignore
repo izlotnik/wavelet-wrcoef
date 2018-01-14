@@ -1,0 +1,16 @@
+## Python
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# PyCharm IDE
+.idea/
+
+## Matlab
+# Windows default autosave extension
+*.asv
+
+# OSX / *nix default autosave extension
+*.m~
+
+# Exclude folders
+archive/
